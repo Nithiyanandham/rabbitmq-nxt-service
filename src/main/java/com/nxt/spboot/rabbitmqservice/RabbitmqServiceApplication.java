@@ -1,7 +1,7 @@
 package com.nxt.spboot.rabbitmqservice;
 
 import com.nxt.spboot.rabbitmqservice.common.RabbitmqServiceProperties;
-import com.nxt.spboot.rabbitmqservice.service.RabbitmqServiceListener;
+import com.nxt.spboot.rabbitmqservice.service.RabbitmqListenerService;
 import org.springframework.amqp.core.Binding;
 import org.springframework.amqp.core.BindingBuilder;
 import org.springframework.amqp.core.Queue;
@@ -57,7 +57,7 @@ public class RabbitmqServiceApplication {
     }
 
     @Bean
-    MessageListenerAdapter listenerAdapter(RabbitmqServiceListener listener) {
+    MessageListenerAdapter listenerAdapter(RabbitmqListenerService listener) {
         return new MessageListenerAdapter(listener, "receiveMessage");
     }
 

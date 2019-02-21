@@ -3,6 +3,10 @@ package com.nxt.spboot.rabbitmqservice.common;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 
+/**
+ * Created by nithi on 2019-02-21.
+ *
+ */
 @Component
 public class RabbitmqServiceProperties {
 
