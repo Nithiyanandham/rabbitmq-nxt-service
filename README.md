@@ -16,11 +16,11 @@ One time setup
 ==============
   1. Make sure Docker Desktop running...
   2. docker-compose run rabbitmq
-  
-  Note : 
-	a.) This will create a image in your docker container
-	b.) Make sure you got below trace
-		Server startup complete; 3 plugins started.
+  	
+	Note : 
+		a.) This will create a image in your docker container
+		b.) Make sure you got below trace
+			Server startup complete; 3 plugins started.
 			rabbitmq_management
 			rabbitmq_management_agent
 			rabbitmq_web_dispatch
@@ -55,8 +55,9 @@ Note:
 1. Explore in the docker image creation
 2. Docker hub view in laptop
 3. Paths
-home dir       : /var/lib/rabbitmq
-config file(s) : /etc/rabbitmq/rabbitmq.conf
-cookie hash    : TUOW07tdtfLrYCUJxPsL9Q==
-log(s)         : <stdout>
-database dir   : /var/lib/rabbitmq/mnesia/rabbit@5f42ec273861
+
+		home dir       : /var/lib/rabbitmq
+		config file(s) : /etc/rabbitmq/rabbitmq.conf
+		cookie hash    : TUOW07tdtfLrYCUJxPsL9Q==
+		log(s)         : <stdout>
+		database dir   : /var/lib/rabbitmq/mnesia/rabbit@5f42ec273861
