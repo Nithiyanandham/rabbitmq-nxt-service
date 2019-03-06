@@ -16,6 +16,7 @@ One time setup
 ==============
   1. Make sure Docker Desktop running...
   2. >>docker-compose run rabbitmq
+  
 		 Note : 
 		 	a.) This will create a image in your docker container
 			b.) Make sure you got below trace
@@ -33,15 +34,18 @@ One time setup
 					 rabbitmq_web_dispatch
   3. Kill the run process (Ctrl + C). 
   4. >>docker-compose up
+  
 		Note: Make sure we got below trace at end
 			Server startup complete; 3 plugins started.
 			rabbitmq_1  |  * rabbitmq_management
 			rabbitmq_1  |  * rabbitmq_management_agent
 			rabbitmq_1  |  * rabbitmq_web_dispatch
   5. Make sure RMQ host is up, http://localhost:15672 
+  
   		Note: RMQ mapped to port 15672 , UN : guest and PW : guest
   6. Kill the running rabbitmq service 
   7. Check the image are available. docker-compose images
+  
 	Container       Repository       Tag          Image Id      Size 
 	---------------------------------------------------------------------
 	docker_rabbitmq_1   rabbitmq     3-management   a7f2574d507f   201 MB
