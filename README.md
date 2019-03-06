@@ -56,7 +56,8 @@ Application running
 
 Notes
 =====
-1. Explore in the docker image creation
+
+1. Adde the run_rabbitmq.sh file to perfrom the all one time setup commands
 2. Docker hub view in laptop
 3. Paths
 
