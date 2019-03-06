@@ -51,6 +51,7 @@ Application running
 2. Make sure RMQ host is up, http://localhost:15672 
 	
 
+
 Note: 
 1. Explore in the docker image creation
 2. Docker hub view in laptop
