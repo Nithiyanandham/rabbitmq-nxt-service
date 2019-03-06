@@ -2,12 +2,14 @@
 This is a POC project for Rabbit MQ(RMQ) using Spring-boot 2.1.2.RELEASE
 
 
-Scope:
+Scope
+=====
 1. Publish the message to RMQ
 2. Listen the message from RMQ
 
 
 Capabilities
+============
 1. Docker image for rabbitmq creation
 2. More on the way.........
 
@@ -45,14 +47,15 @@ One time setup
 	---------------------------------------------------------------------
 	docker_rabbitmq_1   rabbitmq     3-management   a7f2574d507f   201 MB
 
+
 Application running
 ===================
 1. docker-compose up
 2. Make sure RMQ host is up, http://localhost:15672 
 	
 
-
-Note: 
+Notes
+=====
 1. Explore in the docker image creation
 2. Docker hub view in laptop
 3. Paths
