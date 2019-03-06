@@ -47,8 +47,8 @@ One time setup
 
 Application running
 ===================
-	1. >>docker-compose up
-	2. Make sure RMQ host is up, http://localhost:15672 
+1. docker-compose up
+2. Make sure RMQ host is up, http://localhost:15672 
 	
 
 Note: 
